@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "lerna": "^4.0.0",
+    "rollup": "^2.59.0",
+    "rollup-plugin-typescript2": "^0.30.0"
+  }
+}
