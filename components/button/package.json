@@ -1,11 +1,13 @@
 {
   "name": "@nicoleoliveira/button",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "button library",
   "keywords": [],
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
   "license": "ISC",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "browser": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "directories": {
@@ -19,6 +21,6 @@
     "watch": "npx rollup -c -w"
   },
   "dependencies": {
-    "@nicoleoliveira/common": "^1.2.2"
+    "@nicoleoliveira/common": "^1.2.3"
   }
 }

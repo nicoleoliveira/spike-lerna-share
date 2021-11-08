@@ -1,11 +1,13 @@
 {
   "name": "@nicoleoliveira/common",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Core shared library",
   "keywords": [],
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
   "license": "ISC",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "browser": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "directories": {
