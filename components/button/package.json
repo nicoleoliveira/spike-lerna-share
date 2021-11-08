@@ -1,6 +1,6 @@
 {
   "name": "@nicoleoliveira/button",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "button library",
   "keywords": [],
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
@@ -21,6 +21,6 @@
     "watch": "npx rollup -c -w"
   },
   "dependencies": {
-    "@nicoleoliveira/common": "^1.2.5"
+    "@nicoleoliveira/common": "^1.2.6"
   }
 }
