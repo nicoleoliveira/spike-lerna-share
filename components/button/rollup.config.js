@@ -17,11 +17,10 @@ export default {
     file: pkg.module,
     format: "esm",
     sourcemap: true,
-    plugins: [nodeResolve({ mainFields: ["browser"] }),]
   },
   external,
   plugins: [
+    typescript(),
     nodeResolve({ browser: true }),
-    typescript({ typescript: require("typescript") }),
   ],
 };
