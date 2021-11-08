@@ -5,6 +5,7 @@
   "keywords": [],
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
   "license": "ISC",
+  "files": ["dist/"],
   "browser": "dist/index.esm.js",
   "module": "dist/index.esm.js",
   "directories": {
