@@ -20,10 +20,10 @@
       "inlineSources": true,
       "paths": {
         "@nicoleoliveira/common": [
-          "/home/nicole.silva@jv01.local/animalia/labs/lerna-share/components/button/node_modules/@nicoleoliveira/common/dist"
+          "./node_modules/@nicoleoliveira/common/dist"
         ],
         "@nicoleoliveira/common/*": [
-          "/home/nicole.silva@jv01.local/animalia/labs/lerna-share/components/button/node_modules/@nicoleoliveira/common/dist/*"
+          "./node_modules/@nicoleoliveira/common/dist/*"
         ],
       }
     },
