@@ -5,8 +5,8 @@
   "keywords": [],
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
   "license": "ISC",
-  "browser": "dist/index.esm.js",
-  "module": "dist/index.esm.js",
+  "browser": "index.esm.js",
+  "module": "index.esm.js",
   "directories": {
     "lib": "src"
   },

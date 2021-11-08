@@ -17,7 +17,15 @@
       "strict": true,
       "target": "es2017",
       "sourceMap": true,
-      "inlineSources": true
+      "inlineSources": true,
+      "paths": {
+        "@nicoleoliveira/common": [
+          "/home/nicole.silva@jv01.local/animalia/labs/lerna-share/components/button/node_modules/@nicoleoliveira/common/dist"
+        ],
+        "@nicoleoliveira/common/*": [
+          "/home/nicole.silva@jv01.local/animalia/labs/lerna-share/components/button/node_modules/@nicoleoliveira/common/dist/*"
+        ],
+      }
     },
     "include": ["src/**/*"],
     "exclude": ["src/**/**.test.*"]

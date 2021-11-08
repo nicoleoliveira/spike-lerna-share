@@ -1,7 +1,7 @@
-import typescript from 'rollup-plugin-typescript2';
-import pkg from './package.json';
+import typescript from "rollup-plugin-typescript2";
+import pkg from "./package.json";
 
-import { nodeResolve } from '@rollup/plugin-node-resolve';
+import { nodeResolve } from "@rollup/plugin-node-resolve";
 
 const input = "src/index.ts";
 
@@ -10,13 +10,18 @@ const external = [
   ...Object.keys(pkg.peerDependencies || {}),
 ];
 
-const plugins = [ nodeResolve(), typescript({ typescript: require("typescript") }) ];
-
-export default [
-  {
-    input,
-    output: { name: 'button', file: pkg.module, format: "esm", sourcemap: true },
-    plugins,
-    external
-  }
-];
+export default {
+  input,
+  output: {
+    name: "button",
+    file: pkg.module,
+    format: "esm",
+    sourcemap: true,
+    plugins: [nodeResolve({ mainFields: ["browser"] }),]
+  },
+  external,
+  plugins: [
+    nodeResolve({ browser: true }),
+    typescript({ typescript: require("typescript") }),
+  ],
+};
