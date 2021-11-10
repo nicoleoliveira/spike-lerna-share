@@ -1,6 +1,6 @@
 {
   "name": "@nicoleoliveira/common",
-  "version": "1.2.10",
+  "version": "1.2.9",
   "description": "Core shared library",
   "keywords": [],
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
@@ -13,7 +13,9 @@
   "directories": {
     "lib": "src"
   },
-  "private": "true",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npx rollup -c",
     "watch": "npx rollup -c -w"
