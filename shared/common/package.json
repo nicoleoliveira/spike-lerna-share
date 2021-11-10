@@ -13,9 +13,7 @@
   "directories": {
     "lib": "src"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": "true",
   "scripts": {
     "build": "npx rollup -c",
     "watch": "npx rollup -c -w"
