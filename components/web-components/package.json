@@ -1,6 +1,6 @@
 {
   "name": "@nicoleoliveira/web-components",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "> web components library",
   "author": "Nicole Oliveira <nicoleoliveira1995@gmail.com>",
   "homepage": "https://github.com/nicoleoliveira/spike-lerna-share#readme",
@@ -29,6 +29,6 @@
     "url": "https://github.com/nicoleoliveira/spike-lerna-share/issues"
   },
   "dependencies": {
-    "@nicoleoliveira/button": "^1.2.9"
+    "@nicoleoliveira/button": "^1.2.10"
   }
 }
