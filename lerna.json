@@ -3,10 +3,5 @@
     "components/*",
     "shared/*"
   ],
-  "version": "1.2.9",
-  "publish": {
-    "ignoreChanges": [
-      "common/*"
-    ]
-  }
+  "version": "1.2.9"
 }
